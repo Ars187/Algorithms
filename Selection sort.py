@@ -2,7 +2,7 @@
 
 lst=eval(input('Enter list'))
 for i in range(len(lst)): 
-    x=i #
+    x=i 
     for j in range(i+1,len(lst)): 
         if lst[x]>lst[j]: 
             x=j        
